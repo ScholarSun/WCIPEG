@@ -1,0 +1,9 @@
+import java.io.BufferedReader;
+
+public class CCC05S2 {
+   public static void main (String[] args) {
+      BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+      String[] tokens = in.readLine().split(" ");
+      int num = Integer.parseInt(tokens[0]);
+   }
+}
